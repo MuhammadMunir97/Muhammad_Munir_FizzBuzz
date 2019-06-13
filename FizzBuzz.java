@@ -1,9 +1,12 @@
 public class FizzBuzz {
     public String fizzBuzz(int number){
-    if (number % 3 == 0){
-    System.out.println("Fizz");
+    String val = "";
+        if (number % 3 == 0){
+        val += "Fizz";
     }
     if (number % 5 == 0){
-    System.out.println("Buzz");
+        val += "Buzz";
+    }
+    return val;
     }
 }
